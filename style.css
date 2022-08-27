@@ -23,11 +23,44 @@ body {
 }
 
 .question {
-  margin-top: 4rem;
-  background-color: rgb(6, 67, 67);
+  margin-top: 6rem;
+  /* background-color: rgb(6, 67, 67); */
 }
 
 .answer {
   text-align: center;
   margin-top: 4rem;
+  /* background-color: aquamarine; */
+  /* border: 1px solid #fff; */
+}
+
+.answer-verb {
+  margin: 0;
+  padding: 14px;
+  width: 20%;
+  display: inline-block;
+  background-color: darkcyan;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.add {
+  right: 38%;
+  top: 40%;
+}
+
+.card {
+  border-top: 4px solid turquoise;
+}
+.card-body {
+  padding-bottom: 8px;
+}
+
+.card-body .card-text {
+  font-size: 20px;
+}
+
+.btn-done {
+  margin-top: 1rem;
+  /* background-color: to; */
 }
