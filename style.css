@@ -21,3 +21,13 @@ body {
 .nav-link:hover {
   color: rgb(0, 222, 148);
 }
+
+.question {
+  margin-top: 4rem;
+  background-color: rgb(6, 67, 67);
+}
+
+.answer {
+  text-align: center;
+  margin-top: 4rem;
+}
