@@ -22,8 +22,12 @@ body {
   color: rgb(0, 222, 148);
 }
 
+.container-2 {
+  margin: 0 50px;
+}
+
 .question {
-  margin-top: 6rem;
+  margin-top: 4rem;
   /* background-color: rgb(6, 67, 67); */
 }
 
@@ -37,7 +41,7 @@ body {
 .answer-verb {
   display: block;
   padding: 14px;
-  width: 20%;
+  width: 12%;
   margin: auto;
   background-color: darkcyan;
   border-radius: 20px;
@@ -51,12 +55,12 @@ body {
 
 .add-form {
   display: none;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 .add-form2 {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
@@ -71,25 +75,20 @@ body {
   color: #212529;
 }
 
-.card {
-  border-top: 4px solid turquoise;
+.mylist {
+  display: block;
+  width: 35%;
+  margin: auto;
 }
 
-.card-verb {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.list-group-item {
+  padding: 8px 12px;
 }
-
-.card-body {
-  padding-bottom: 8px;
-}
-
-.card-body .card-text {
-  font-size: 20px;
-}
-
-.btn-done {
-  margin-top: 1rem;
-  /* background-color: to; */
+.mydo {
+  float: left;
+  margin: 0;
+  background-color: transparent;
+  overflow: hidden;
+  padding: 6.5px 12px;
+  padding-left: 0;
 }

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>MyProject</title>
   </head>
-  <body class="bg-danger">
+  <body class="bg-dark">
     <!-- Nav Menu -->
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
@@ -50,8 +50,8 @@
     </nav>
 
     <!-- Konten -->
-    <div class="container">
-      <p class="question display-3 text-center">What do you want to ?</p>
+    <div class="container container-2">
+      <p class="question display-4">What do you want to ?</p>
 
       <div class="answer">
         <p class="display-6 answer-verb text-center">
@@ -82,8 +82,24 @@
         </div>
 
         <!-- Isi To do list -->
-        <div class="container">
-          <h4>My To Do List</h4>
+        <div class="container mylist rounded bg-warning mt-4">
+          <h4 class="text-center text-dark py-3">My To Do List</h4>
+          <ul class="list-group list-group-flush">
+            <!-- Maksimal Verb 40 -->
+            <li class="list-group-item">
+              <p class="mydo">Mandui</p>
+              <button class="btn btn-dark" style="float: right">Done</button>
+            </li>
+            <li class="list-group-item">
+              <p class="mydo">Badzuhur</p>
+              <button class="btn btn-dark" style="float: right">Done</button>
+            </li>
+            <li class="list-group-item">
+              <p class="mydo">Menyimpun Baju</p>
+              <button class="btn btn-dark" style="float: right">Done</button>
+            </li>
+          </ul>
+          <br />
         </div>
 
         <!-- Buat Card -->
@@ -111,6 +127,10 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      kata = document.getElementById('max');
+      let panjang = document.getElementById('max').length;
+      alert(kata);
+
       let add_form = document.getElementById('add-form');
       let add_button = document.getElementById('add');
 
