@@ -64,7 +64,16 @@
           </span>
         </p>
 
-        <div id="add-form"></div>
+        <div class="w-100" id="add-form">
+          <input
+            type="text"
+            class="form-control w-75 mt-4"
+            id="verb"
+            name="verb"
+            placeholder="What do you want to do ?"
+            style="display: block; margin: auto"
+          />
+        </div>
 
         <!-- Buat Card -->
         <div class="row mt-5 text-center">
@@ -109,5 +118,8 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script>
+      let add_form = document.getElementById('add-form');
+    </script>
   </body>
 </html>
