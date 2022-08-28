@@ -65,6 +65,7 @@
         </p>
 
         <div class="add-form" id="add-form">
+          <!-- <form> -->
           <input
             type="text"
             class="form-control w-100 mt-4"
@@ -74,11 +75,13 @@
             style="display: block; margin: auto"
           />
           <input
-            type="submit"
+            type="button"
             value="Add"
             class="btn btn-add mt-2"
             style="justify-content: start"
+            id="btn-add"
           />
+          <!-- </form> -->
         </div>
 
         <!-- Isi To do list -->
@@ -87,7 +90,7 @@
           <ul class="list-group list-group-flush">
             <!-- Maksimal Verb 40 -->
             <li class="list-group-item">
-              <p class="mydo">Mandui</p>
+              <p class="mydo" id="mylist"></p>
               <button class="btn btn-dark" style="float: right">Done</button>
             </li>
             <li class="list-group-item">
